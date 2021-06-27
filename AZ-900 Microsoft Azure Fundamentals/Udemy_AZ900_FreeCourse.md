@@ -1,4 +1,4 @@
-** Microsoft Azure 900 Fundamentals **
+## Microsoft Azure 900 Fundamentals ##
 
 URL: https://www.udemy.com/course/az-900-azure-tutorial/?ranMID=39197&ranEAID=JVFxdTr9V80&ranSiteID=JVFxdTr9V80-cIxhOU_9IOM25pJZVKK38A&utm_source=aff-campaign&utm_medium=udemyads&LSNPUBID=JVFxdTr9V80
 
@@ -50,7 +50,7 @@ To understand the public cloud model, you must understand the three types of ser
 
 Here is a look at who is responsible for what in each model:
 
-**Iaas**
+## Iaas ##
 
 You manage:
 
@@ -67,7 +67,7 @@ Vendor Managers:
 -   Storage
 -   Networking
 
-**Paas**
+## Paas ##
 
 You manage:
 
@@ -84,7 +84,7 @@ Vendor Manages:
 -   Storage
 -   Networking
 
-**Saas**
+## Saas ##
 
 You manage:
 
@@ -106,7 +106,7 @@ Less control you have, the cheaper it is (Saas cheapest, Iaas most expensive).
 
 **---------------------------------------------------------------------------**
 
-**Resource Groups**
+## Resource Groups##
 
 Relies on logical grouping instead of type grouping
 
@@ -120,9 +120,9 @@ When you delete a RG, it all delete all of the resources that are inside. The de
 
 In the Access Control section, we can associate resource groups to security. I.E. you can provision a user/group to only haves access to certain RGs.
 
-**----------------------------------------------------------------------------**
+---
 
-**Azure Portal and Cloud Shell**
+## Azure Portal and Cloud Shell ##
 
 Here is where you can create a resource. You can create just about any resource type possible within the Azure Marketplace.
 
@@ -146,9 +146,9 @@ You can script anything that can be done by hand in the Azure portal
 
 You can go to [shell.azure.com](http://shell.azure.com) to get a fullscreen view of the cloud shell
 
-**------------------------------------------------------------------------------------**
+---
 
-**Subscriptions and Accounts**
+## Subscriptions and Accounts ##
 
 Subscriptions - The sum of all Azure services linked to an account
 
@@ -160,9 +160,9 @@ Subscriptions also include accounts like identities in Azure AD, or school or or
 
 Azure Subscription can have association with multiple AD
 
-**------------------------------------------------------------------------------------**
+---
 
-**Azure AD **
+## Azure AD ##
 
 What is it: Universal platform to manage and secure identities
 
