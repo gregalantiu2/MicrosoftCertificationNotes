@@ -50,7 +50,7 @@ To understand the public cloud model, you must understand the three types of ser
 
 Here is a look at who is responsible for what in each model:
 
-**Iaas
+**Iaas**
 
 You manage:
 
@@ -67,7 +67,7 @@ Vendor Managers:
 -   Storage
 -   Networking
 
-**Paas
+**Paas**
 
 You manage:
 
@@ -84,7 +84,7 @@ Vendor Manages:
 -   Storage
 -   Networking
 
-**Saas
+**Saas**
 
 You manage:
 
@@ -172,3 +172,47 @@ Microsoft has broken down identity into four different sections
 2.  Authorization
 3.  Administration
 4.  Auditing
+
+Azure AD can connect to many different services - I.E. Web Apps, Office 365
+
+Identity Governance - this is where you can control access to users
+
+Azure AD Connect - this is where you can sync organization AD with Azure AD
+
+Three different kinds of offerings for Azure AD:
+
+1. Free
+2. Premium 1
+3. Premium 2
+
+Free level has limited number of users, limted number of applications 
+
+P1 and P2 have many more features (AD join, multi factor authentication)
+
+---
+
+## Multi Factor Authentication
+
+One of most widely used features in Azure AD 
+
+In the Security section of Azure AD - there is an option to turn on MFA
+
+There are multiple options for the second level of authentication such as retina scan or fingerpring. It can be an sms or Windows Authenticator app
+
+aka.ms/mfasetup - to setup mfa just for your MS User account
+
+Cannot set MFA for a guest user
+
+Within the Security Section, Conditional Access lets you set policies for when to use MFA - asking for MFA in every situation is not good practice 
+
+Some coditions that you can set: 
+
+-If they are located outside the office
+-Type of device
+-New IP Address 
+-etc
+
+---
+
+## Role Based Access Control
+
